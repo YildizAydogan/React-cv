@@ -12,8 +12,8 @@ const Skill = (props) => {
             aria-valuenow={props.value}
             aria-valuemin="0"
             aria-valuemax="100"
-            style={`width: ${props.value}%`}
-          >
+            style={{width: props.value + "%"}}>
+          
             <span className="sr-only">{props.value}% Complete</span>
           </div>
         </div>

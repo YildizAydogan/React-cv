@@ -6,6 +6,7 @@ import Intro from './componenets/intro/intro';
 import About from './componenets/about/about';
 import Quote from './componenets/quote/quote';
 import Skills from './componenets/skills/skills';
+import Experiences from './componenets/experience/experiences';
 
 
 
@@ -18,6 +19,7 @@ function App() {
    <About/>
    <Quote/>
    <Skills/>
+   <Experiences/>
    
    
    
